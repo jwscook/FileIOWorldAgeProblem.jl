@@ -38,3 +38,17 @@ Stacktrace:
  [8] loadasUInt8(::String) at /Users/james/Documents/code/julia/FileIOWorldAgeProblem/src/FileIOWorldAgeProblem.jl:6 (repeats 2 times)
  [9] top-level scope at REPL[2]:1
 ```
+
+## But this makes it work
+
+```julia
+julia> using QuartzImageIO
+
+julia> using FileIOWorldAgeProblem
+
+julia> FileIOWorldAgeProblem.loadasUInt8()
+3×3 Array{UInt8,2}:
+ 0x32  0xed  0xd7
+ 0x21  0x72  0xca
+ 0xab  0x41  0xab
+```
