@@ -1,0 +1,7 @@
+name = "FileIOWorldAgeProblem"
+uuid = "f13c8946-1ccb-45a5-aae8-8beec26004d5"
+authors = ["James Cook <cookjws@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
